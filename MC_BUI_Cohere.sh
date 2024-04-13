@@ -14,7 +14,7 @@ ask_question() {
     --url https://api.cohere.ai/v1/chat \
     --header 'accept: application/json' \
     --header 'content-type: application/json' \
-    --header "Authorization: bearer t9b1EhQ2moShLjJ4IS3Ft3MmcD1d6kSrQAXgEvNG" \
+    --header "Authorization: bearer Add API KEY HERE" \
     --data '{
         "chat_history": [
             {"role": "USER", "message": "'"$user_question"'"},
